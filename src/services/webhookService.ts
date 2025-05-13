@@ -1,8 +1,8 @@
 import { TestCase } from '../types/testCase';
 
 // Environment variables would be used in production
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://your-n8n-instance.com/webhook';
-const FETCH_WEBHOOK_URL = `${API_BASE_URL}/test-cases`;
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://juliaemilyqa.app.n8n.cloud/webhook-test';
+const FETCH_WEBHOOK_URL = `${API_BASE_URL}/send-test-cases`;
 const APPROVAL_WEBHOOK_URL = `${API_BASE_URL}/approve-test-case`;
 const REJECTION_WEBHOOK_URL = `${API_BASE_URL}/reject-test-case`;
 
